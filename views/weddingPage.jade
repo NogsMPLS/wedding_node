@@ -4,10 +4,9 @@ html(lang="en")
     meta(charset="utf-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     meta(http-equiv="X-UA-Compatible", content="IE=Edge,chrome=1")
-    meta(name="description", content="Jane&John's Wedding")
-    meta(name="author", content="Marco Antonio Pajares Silva")
-    link(rel="shortcut icon", href="img/favicon.png")
-    title Jane&John's Wedding
+    meta(name="description", content="JLindsey & Nathan's Wedding")
+    meta(name="author", content="Nathan Smith")
+    title Lindsey & Nathan's Wedding
     // Bootstrap core CSS
     link(href="css/bootstrap.css", rel="stylesheet")
     // Custom styles for this template
@@ -19,14 +18,12 @@ html(lang="en")
     link(href="css/colorbox.css", rel="stylesheet")
     link(href="css/style.css", rel="stylesheet")
     link(href="css/responsive.css", rel="stylesheet")
+    link(href="css/justifiedGallery.min.css", rel="stylesheet")
+    link(href="css/magnific.css", rel="stylesheet")
     // HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries
     //if lt IE 9
       script(src="js/html5shiv.js")
       script(src="js/respond.min.js")
-
-    // Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent
-    link(rel='stylesheet', type='text/css', href='http://assets.cookieconsent.silktide.com/current/style.min.css')
-    script(type='text/javascript', src='http://assets.cookieconsent.silktide.com/current/plugin.min.js')
 
 
   body(data-spy="scroll", data-target=".navbar-default")
@@ -48,37 +45,29 @@ html(lang="en")
         #bs-example-navbar-collapse-1.collapse.navbar-collapse
           ul.nav.navbar-nav
             li.active
-              a(href="#home") Inicio
+              a(href="#home") Home
             li
-              a(href="#about") Descripción
+              a(href="#about") About
             li
-              a(href="#ceremony") Boda
+              a(href="#ceremony") Ceremony
             li
-              a(href="#maps") Mapas
+              a(href="#maps") Maps
             li
-              a(href="#photos") Fotos
+              a(href="#photos") Photos
             li
-              a(href="#story") Historia
-            li
-              a(href="#contact") Lista de Boda
+              a(href="#story") Story
         // /.navbar-collapse
     // end:navbar
     // begin:home
-    section#home(style="background: url(http://cdn26.us1.fansshare.com/photo/wedding/episcopal-church-ascension-wedding-church-957339152.jpg);")
+    section#home(style="background: url(img/IMG_4910-1.jpg);")
       .container
         .row
           .col-md-12
-            h1 Jane &#38; John
+            h1 Lindsey &#38; Nathan
             h3
-              span el 26 de Septiembre
+              span(style="color:black") October 11th, 2015
             // <div class="line"><h3>Are getting</h3></div>
-            h2
-              i.fa.fa-heart-o
-              | ¡SE CASAN!
-              i.fa.fa-heart-o
-            h4 Y tienen el placer de
-            h5
-              span ~ Invitarte ~
+            h2 Wedding
     // end:home
     // begin:about
     section#about
@@ -86,95 +75,137 @@ html(lang="en")
         .container
           .row
             .col-md-4
-              h2 Jane
+              h2 Lindsey
               p
-                | Jane, 25 años,es la mayor de tres hermanas, de ahí que lo de mandar lo lleve innato.Tiene varios dones como que dibuja muy bien, tiene una imaginación genial, es muy detallista, divertida, optimista y le encanta quedar con todo el mundo. A mi personalmente me da mucha envidia lo constante, sencilla y humilde que puede llegar a ser aunque a veces se pasa de chulita. Es una gran enfermera (no sólo técnica si no humanamente hablando) y sus pacientes están felices.
+                | Jane, 28, es la mayor de tres hermanas, de ahí que lo de mandar lo lleve innato.Tiene varios dones como que dibuja muy bien, tiene una imaginación genial, es muy detallista, divertida, optimista y le encanta quedar con todo el mundo. A mi personalmente me da mucha envidia lo constante, sencilla y humilde que puede llegar a ser aunque a veces se pasa de chulita. Es una gran enfermera (no sólo técnica si no humanamente hablando) y sus pacientes están felices.
               blockquote
                 |  Le encantan los niños y a todos les vuelve medio tarumbas. ¿Cómo no voy a querer casarme con ella?
-                small John
+                small Nathan
             // break
             .col-md-4
-              .about-img-container(style="background: url(http://www.two-views.com/images/couple_kissing.jpg) center;")
-              img.about-img.img-responsive(src="img/bottom.png")
+              .about-img-container(style="background: url(img/IMG_4697-1_1.jpg) center;")
             // break
             .col-md-4
-              h2 John
+              h2 Nathan
               p
                 | John, 23 años, pequeño de cinco hermanos y el más zumbado de todos sin duda. Risueño, soñador,entregado a todos, un loco por la automoción y todo aquello ruidoso (motores, cohetes, petardos, música altísima...) El chico más feliz que he conocido nunca. Se sabe cuando llega porque tiene la costumbre de pegar acelerones o ponerse a pitar como loco para que se sepa que está aquí. No para quieto ni para hablar por teléfono y se apunta a un bombardeo.
 
               blockquote
                 |  Sé que jamás podré aburrirme cuando estemos juntos y que gracias a él los días son hasta más soleados en Londres.
-                small Jane
+                small Lindsey
             // break
     // end:about
     // begin:maps
-    section#maps.iglesia(style="background-image: url('http://truephotography.com/wp-content/uploads/2012/08/San-Diego-Wedding-Coordinator-Alison-Howard-Events.jpg');")
+    section#maps.iglesia(style="background: url('img/interior-1b.jpg');")
       .row
         .col-md-6.col-sm-6
-          iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6307.289921555594!2d-122.29507142824505!3d37.774922287265376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580c7e108cf43%3A0x3f27a17bc016651c!2sSt.+Dominic's+Catholic+Church!5e0!3m2!1sen!2sde!4v1423731007544", width="600", height="400", frameborder="0", style="border:0")
+          iframe(src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11288.350509501783!2d-93.271774!3d44.982531!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6b8816ed61f21c8a!2s112+Eatery!5e0!3m2!1sen!2sus!4v1431882892048", width="600", height="400", frameborder="0", style="border:0")
         .col-md-6.col-sm-6.text
-          h1 The Church
-          h4 St. Dominic's Catholic Church, 2390 Bush Street, San Francisco, CA 94115 06.00 PM
-    // end:maps
-    section#maps.convite(style="background-image: url('http://www.weddingatfareast.com/~/media/FE%20Weddings/2%20CVH/Venues/Square/CVH%20-%20Ballroom%201%20-%20001.ashx');")
-      .row
-        .col-md-6.col-sm-6.text
-          h1 Wedding banquet
-          h4 Complejo El Olivar
-        .col-md-6.col-sm-6.pull-right
-          iframe(src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6067.505137162438!2d-3.3899678!3d40.5028542!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd424987d61d3dc7%3A0x729df944b22a8d55!2sComplejo+El+Olivar%2C+Bodas+y+Eventos!5e0!3m2!1ses!2ses!4v1420894142380", width="600", height="400", frameborder="0", style="border:0;float:right;")
+          h1 The Place
+          h4 112 Eatery, 112 North 3rd Street, Minneapolis, MN 55401 5:30 PM
     // end:maps
     // begin:ceremony
-    section#ceremony(style="background: url(http://www.autostraddle.com/wp-content/uploads/2013/12/couple-cover-image-holding-hands.jpg);")
+    section#ceremony(style="background: url(img/IMG_4826-1_1.jpg);")
       .container
         .row
           .col-md-12
-            h1 The Wedding
-            h3
+            h1(style="color: #C35454;") The Wedding
+            h3(style="color: #C35454;")
               span will be
-            h2 26th, Sep
-            h5
-              span ~ 26/09/2015 ~
-            h4 St. Dominic's Catholic Church, 2390 Bush Street, San Francisco, CA 94115 06.00 PM
+            h2(style="color: #C35454;") Oct. 11th, 2015
+            h4 112 Eatery, 112 North 3rd Street, Minneapolis, MN 55401 
+            h3(style="color: #C35454;")
+              span 5:30 PM
     // end:ceremony
     // begin:photos
     section#photos
       .container
         .row
-          .col-md-4
-            img.about-img.img-responsive(src="img/bottom.png")
-            h2 Galeria de fotos
-            p Aqui se pondrán fotos del enlace y la fiesta posterior
+          .col-md-12
+            h2 Photo Gallery
+            p Photos by 
+              a(href="http://www.dominilynn.com/")
+                |Domini Lynn Photography
           // break
-          .col-md-8
-            #wedding-photo.carousel.slide(data-ride="carousel")
-              .carousel-inner
-                .item
-                  .row
-                    .col-md-4.col-sm-4.col-xs-12.animated.fadeInLeftBig
-                      a.gallery-images(href="img/img01.jpg")
-                        .photo-gallery(style="background: url(http://www.couplestherapyinsandiego.com/userfiles/3304838/image/Couple%20on%20beach.jpg);")
-                    .col-md-4.col-sm-4.col-xs-12.animated.fadeInDownBig
-                      a.gallery-images(href="img/img02.jpg")
-                        .photo-gallery(style="background: url(http://www.vamshare.com/wp-content/uploads/2014/06/couple-hug.jpg);")
-                    .col-md-4.col-sm-4.col-xs-12.animated.fadeInRightBig
-                      a.gallery-images(href="img/img03.jpg")
-                        .photo-gallery(style="background: url(http://www.couple.com/images/shared/couplecomvb1.jpg);")
-                .item.active
-                  .row
-                    .col-md-4.col-sm-4.col-xs-12.animated.fadeInRightBig
-                      a.gallery-images(href="img/img04.jpg")
-                        .photo-gallery(style="background: url(http://i.telegraph.co.uk/multimedia/archive/02788/couple_2788635b.jpg);")
-                    .col-md-4.col-sm-4.col-xs-12.animated.fadeInUpBig
-                      a.gallery-images(href="img/img05.jpg")
-                        .photo-gallery(style="background: url(http://cos.h-cdn.co/14/31/980x487/1406832048-1406823730-old_couple.png);")
-                    .col-md-4.col-sm-4.col-xs-12.animated.fadeInLeftBig
-                      a.gallery-images(href="img/img06.jpg")
-                        .photo-gallery(style="background: url(http://i.telegraph.co.uk/multimedia/archive/01949/PF-couple-row_1949229b.jpg);")
-              a.left.carousel-control(href="#wedding-photo", data-slide="prev")
-                span.glyphicon.glyphicon-chevron-left
-              a.right.carousel-control(href="#wedding-photo", data-slide="next")
-                span.glyphicon.glyphicon-chevron-right
+
+        #mygallery
+          a(href="img/gallery/IMG_4683-1.jpg")
+            img(src="img/gallery/IMG_4683-1.jpg")
+          a(href="img/gallery/IMG_4694-1_1.jpg")
+            img(src="img/gallery/IMG_4694-1_1.JPG")
+          a(href="img/gallery/IMG_4697-1_1.jpg")
+            img(src="img/gallery/IMG_4697-1_1.JPG")
+          a(href="img/gallery/IMG_4699-1.jpg")
+            img(src="img/gallery/IMG_4699-1.jpg")
+          a(href="img/gallery/IMG_4706-1.jpg")
+            img(src="img/gallery/IMG_4706-1.jpg")
+          a(href="img/gallery/IMG_4716-1.jpg")
+            img(src="img/gallery/IMG_4716-1.jpg")
+          a(href="img/gallery/IMG_4751-1_1.jpg")
+            img(src="img/gallery/IMG_4751-1_1.jpg")
+          a(href="img/gallery/IMG_4757-1_1.jpg")
+            img(src="img/gallery/IMG_4757-1_1.jpg")
+          a(href="img/gallery/IMG_4761-1.jpg")
+            img(src="img/gallery/IMG_4761-1.jpg")
+          a(href="img/gallery/IMG_4780-1_1.jpg")
+            img(src="img/gallery/IMG_4780-1_1.jpg")
+          a(href="img/gallery/IMG_4780-1_2.jpg")
+            img(src="img/gallery/IMG_4780-1_2.jpg")
+          a(href="img/gallery/IMG_4788-1.jpg")
+            img(src="img/gallery/IMG_4788-1.jpg")
+          a(href="img/gallery/IMG_4793-1.jpg")
+            img(src="img/gallery/IMG_4793-1.jpg")
+          a(href="img/gallery/IMG_4797-1_1.jpg")
+            img(src="img/gallery/IMG_4797-1_1.jpg")
+          a(href="img/gallery/IMG_4799-1.jpg")
+            img(src="img/gallery/IMG_4799-1.jpg")
+          a(href="img/gallery/IMG_4799-1_1.jpg")
+            img(src="img/gallery/IMG_4799-1_1.jpg")
+          a(href="img/gallery/IMG_4804-1.jpg")
+            img(src="img/gallery/IMG_4804-1.jpg")
+          a(href="img/gallery/IMG_4814-1.jpg")
+            img(src="img/gallery/IMG_4814-1.jpg")
+          a(href="img/gallery/IMG_4826-1.jpg")
+            img(src="img/gallery/IMG_4826-1.jpg")
+          a(href="img/gallery/IMG_4826-1_1.jpg")
+            img(src="img/gallery/IMG_4826-1_1.jpg")
+          a(href="img/gallery/IMG_4831-1.jpg")
+            img(src="img/gallery/IMG_4831-1.jpg")
+          a(href="img/gallery/IMG_4845-1.jpg")
+            img(src="img/gallery/IMG_4845-1.jpg")
+          a(href="img/gallery/IMG_4855-1.jpg")
+            img(src="img/gallery/IMG_4855-1.jpg")
+          a(href="img/gallery/IMG_4859-1.jpg")
+            img(src="img/gallery/IMG_4859-1.jpg")
+          a(href="img/gallery/IMG_4865-1.jpg")
+            img(src="img/gallery/IMG_4865-1.jpg")
+          a(href="img/gallery/IMG_4869-1_1.jpg")
+            img(src="img/gallery/IMG_4869-1_1.jpg")
+          a(href="img/gallery/IMG_4875-1.jpg")
+            img(src="img/gallery/IMG_4875-1.jpg")
+          a(href="img/gallery/IMG_4875-1_1.jpg")
+            img(src="img/gallery/IMG_4875-1_1.jpg")
+          a(href="img/gallery/IMG_4895-1.jpg")
+            img(src="img/gallery/IMG_4895-1.jpg")
+          a(href="img/gallery/IMG_4900-1_1.jpg")
+            img(src="img/gallery/IMG_4900-1_1.jpg")
+          a(href="img/gallery/IMG_4905-1.jpg")
+            img(src="img/gallery/IMG_4905-1.jpg")
+          a(href="img/gallery/IMG_4905-1_1.jpg")
+            img(src="img/gallery/IMG_4905-1_1.jpg")
+          a(href="img/gallery/IMG_4910-1.jpg")
+            img(src="img/gallery/IMG_4910-1.jpg")
+          a(href="img/gallery/IMG_4910-1_1.jpg")
+            img(src="img/gallery/IMG_4910-1_1.jpg")
+          a(href="img/gallery/IMG_4912-1.jpg")
+            img(src="img/gallery/IMG_4912-1.jpg")
+          a(href="img/gallery/IMG_4920-1_1.jpg")
+            img(src="img/gallery/IMG_4920-1_1.jpg")
+          a(href="img/gallery/IMG_4927-1.jpg")
+            img(src="img/gallery/IMG_4927-1.jpg")
+          a(href="img/gallery/IMG_4925-1.jpg")
+            img(src="img/gallery/IMG_4925-1.jpg")
+
     // end:photos
     // begin:story
     section#story
@@ -230,59 +261,26 @@ html(lang="en")
                 h3.content-avatar.avatar-end
                   .img-avatar(style="background: url(https://lh3.googleusercontent.com/-LhQlfDGGvw8/AAAAAAAAAAI/AAAAAAAAAAA/CGV1DBkD1iQ/photo.jpg);")
     // end:story
-
-    // begin:contact
-    section#contact
-      .container
-        .row
-          .col-md-12
-            h2 Contact
-            .contact-container
-              .row
-                .col-md-6.col-sm-6
-                  textarea#form_subject.form-control.no-resize(rows="7", name="subject", placeholder="Mensaje", style="color:blue")
-                // break
-                .col-md-6.col-sm-6
-                  input#form_name.form-control(type="text", name='name', placeholder="Nombre", style="color:blue")
-                  input#form_mail.form-control(type="email", name='mail', placeholder="Email", style="color:blue")
-                  button#sendForm.btn.btn-lg.btn-green Send
-    // end:contact
     // begin:copyright
     section#copyright
       .container
         .row
           .col-md-12
-            h2 Jane &#38; John
+            h2 Lindsey &#38; Nathan
         .row
           .col-md-12
-            ul.list-inline.social-icon
-              li
-                a.icon-twitter(href="#", rel="tooltip", title="Twitter", data-placement="top")
-                  i.fa.fa-twitter
-              li
-                a.icon-facebook(href="#", rel="tooltip", title="Facebook", data-placement="top")
-                  i.fa.fa-facebook-square
-              li
-                a.icon-google(href="#", rel="tooltip", title="Google Plus", data-placement="top")
-                  i.fa.fa-google-plus
-              li
-                a.icon-instagram(href="#", rel="tooltip", title="Instagram", data-placement="top")
-                  i.fa.fa-instagram
-        .row
-          .col-md-12
-            p
-              | Invitación de boda de Jane &#38; John
-              i.fa.fa-heart-o
-              | by
-              a(href="http://cybermarkus1.github.io/", target="_blank") Marco Antonio Pajares Silva
             p Copyright &#169; 2015 All Right Reserved.
     // end:copyright
-    //
-       Bootstrap core JavaScript
-          ================================================== 
+
     // Placed at the end of the document so the pages load faster
-    script(src="js/jquery.js")
-    script(src="js/bootstrap.js")
-    script(src="js/jquery.colorbox.js")
-    script(src="js/jquery.easing.js")
-    script(src="js/script.js")
+    script(type="text/javascript", src="js/jquery.js")
+    script(type="text/javascript", src="js/bootstrap.js")
+    script(type="text/javascript", src="js/jquery.colorbox.js")
+    script(type="text/javascript", src="js/jquery.easing.js")
+    script(type="text/javascript", src="js/script.js")
+    script(type="text/javascript", src="js/jquery.justifiedGallery.min.js")
+    script(type="text/javascript", src="js/magnific.js")
+    script(type="text/javascript")
+      
+    script(type="text/javascript", src="js/magnificLoad.js")
+      

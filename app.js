@@ -4,8 +4,6 @@ var express        = require('express')
   , logger         = require('morgan')
   , favicon        = require('static-favicon')
   , bodyParser     = require('body-parser')
-  , mongoose			 = require('mongoose')
-  , pmx            = require('pmx').init()
   , http 					 = require('http')
   , path           = require('path')
   , routes 			 	 = require('./routes') // Para las funciones con la DB
@@ -28,14 +26,7 @@ app.get('/', routes.getInit);
 
 // API
 app.get('/domain', routes.getDomain);
-app.get('/login', routes.getInit);
-app.post('/login', routes.setPassword);
-app.get('/api/todos', routes.getTodos);
-app.post('/api/todos', routes.postTodos);
-app.delete('/api/todos/:todo', routes.deleteTodos);
 
-// send Mail
-app.post('/send', routes.sendMail);
 
 
 // run server
